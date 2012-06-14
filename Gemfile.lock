@@ -1,0 +1,39 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    Ascii85 (1.0.1)
+    domain_name (0.5.3)
+      unf (~> 0.0.3)
+    mechanize (2.5.1)
+      domain_name (~> 0.5, >= 0.5.1)
+      mime-types (~> 1.17, >= 1.17.2)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (~> 2.5, >= 2.5.2)
+      nokogiri (~> 1.4)
+      ntlm-http (~> 0.1, >= 0.1.1)
+      webrobots (~> 0.0, >= 0.0.9)
+    mime-types (1.18)
+    net-http-digest_auth (1.2.1)
+    net-http-persistent (2.6)
+    nokogiri (1.5.3)
+    ntlm-http (0.1.1)
+    pdf-reader (1.1.1)
+      Ascii85 (~> 1.0.0)
+      ruby-rc4
+    ruby-rc4 (0.1.5)
+    trollop (1.16.2)
+    unf (0.0.5)
+      unf_ext
+    unf_ext (0.0.5)
+    webrobots (0.0.13)
+    work_queue (2.5.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mechanize
+  nokogiri
+  pdf-reader
+  trollop
+  work_queue
